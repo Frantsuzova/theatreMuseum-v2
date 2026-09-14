@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 330" role="img" aria-label="Дама в театральном костюме">
+  <defs>
+    <linearGradient id="ladyDress" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a84552"/>
+      <stop offset=".55" stop-color="#7d1d2b"/>
+      <stop offset="1" stop-color="#54121e"/>
+    </linearGradient>
+    <linearGradient id="ladyPanel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4dfb5"/>
+      <stop offset="1" stop-color="#d9b45f"/>
+    </linearGradient>
+    <filter id="ladyShadow" x="-30%" y="-30%" width="170%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#321513" flood-opacity=".23"/>
+    </filter>
+  </defs>
+  <g filter="url(#ladyShadow)" transform="translate(112 44)">
+    <ellipse cx="0" cy="252" rx="82" ry="14" fill="#4a2a20" opacity=".2"/>
+    <path d="M-10 83C-82 102-101 180-87 231c10 24 49 31 87 31s77-7 87-31C101 180 82 102 10 83Z" fill="url(#ladyDress)" stroke="#54121e" stroke-width="2"/>
+    <path d="M-15 89C-35 139-41 198-29 251H29C41 198 35 139 15 89Z" fill="url(#ladyPanel)" opacity=".34"/>
+    <g fill="none" stroke="#e5c471" stroke-width="2" opacity=".85">
+      <path d="M-70 132c37 16 103 16 140 0"/>
+      <path d="M-83 181c44 18 122 18 166 0"/>
+      <path d="M-86 225c47 20 125 20 172 0"/>
+      <path d="M-40 104c-13 44-16 95-11 140M40 104c13 44 16 95 11 140" opacity=".45"/>
+    </g>
+    <g fill="#e7c778">
+      <circle cx="-71" cy="132" r="3"/><circle cx="71" cy="132" r="3"/>
+      <circle cx="-83" cy="181" r="3"/><circle cx="83" cy="181" r="3"/>
+      <circle cx="-86" cy="225" r="3"/><circle cx="86" cy="225" r="3"/>
+    </g>
+    <path d="m-18 87 6-58h27l6 58Z" fill="url(#ladyDress)" stroke="#54121e" stroke-width="2"/>
+    <path d="M-12 40h27M-8 52h19" stroke="#e7c778" stroke-width="2" opacity=".8"/>
+    <path d="M-14 43C-47 40-69 28-94 13" fill="none" stroke="#7a1826" stroke-width="12" stroke-linecap="round"/>
+    <ellipse cx="-101" cy="10" rx="8" ry="5" fill="#d4ad86" transform="rotate(17 -101 10)"/>
+    <path d="M17 43c16 9 22 26 18 43" fill="none" stroke="#7a1826" stroke-width="12" stroke-linecap="round"/>
+    <path d="m-22 28 8-9 7 10L1 18l8 11 8-10 8 9" fill="#fff0cf" stroke="#b8872f" stroke-width="1.6"/>
+    <ellipse cx="5" cy="4" rx="17" ry="19" fill="#d1a987"/>
+    <path d="M16-5c18-17 29 8 17 27 15-4 17-25 5-40-10-13-28-10-38 1" fill="#2e1b18"/>
+    <path d="M-10 2-19 6l9 5Z" fill="#d1a987"/>
+    <path d="M0-17c5-15 25-18 34-6" fill="none" stroke="#2e1b18" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="37" cy="-22" r="5" fill="#e3c26e" stroke="#a67525" stroke-width="1.5"/>
+    <path d="M-43 250c24 7 62 7 86 0" fill="none" stroke="#f1d88f" stroke-width="2" opacity=".7"/>
+  </g>
+</svg>

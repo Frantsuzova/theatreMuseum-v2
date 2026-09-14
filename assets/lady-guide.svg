@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 330" role="img" aria-label="Коломбина наклонилась к рассказу">
+  <defs>
+    <linearGradient id="lg-red" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a84552"/><stop offset=".55" stop-color="#7d1d2b"/><stop offset="1" stop-color="#54121e"/></linearGradient>
+    <linearGradient id="lg-gold" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f4dfb5"/><stop offset="1" stop-color="#d9b45f"/></linearGradient>
+    <filter id="lg-shadow" x="-30%" y="-30%" width="170%" height="190%"><feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#321513" flood-opacity=".23"/></filter>
+  </defs>
+  <g filter="url(#lg-shadow)" transform="translate(108 42) rotate(-5 0 135)">
+    <ellipse cx="0" cy="260" rx="80" ry="13" fill="#4a2a20" opacity=".2"/>
+    <path d="M-11 92c-67 22-91 91-79 143 14 28 53 31 90 31s76-3 90-31C102 183 78 114 11 92Z" fill="url(#lg-red)" stroke="#54121e" stroke-width="2"/>
+    <path d="M-15 97c-20 48-27 105-16 158h62c11-53 4-110-16-158Z" fill="url(#lg-gold)" opacity=".34"/>
+    <g fill="none" stroke="#e5c471" stroke-width="2" opacity=".85"><path d="M-70 139c37 16 103 16 140 0"/><path d="M-84 187c45 18 123 18 168 0"/><path d="M-88 232c49 20 127 20 176 0"/></g>
+    <path d="m-18 96 5-58h28l5 58Z" fill="url(#lg-red)" stroke="#54121e" stroke-width="2"/>
+    <path d="M-14 58c-26 18-43 46-47 78" fill="none" stroke="#7a1826" stroke-width="12" stroke-linecap="round"/>
+    <path d="M17 58c24 23 34 54 31 88" fill="none" stroke="#7a1826" stroke-width="12" stroke-linecap="round"/>
+    <ellipse cx="48" cy="150" rx="8" ry="5" fill="#d1a987" transform="rotate(65 48 150)"/>
+    <g transform="translate(1 16) rotate(-18)">
+      <ellipse cx="0" cy="0" rx="17" ry="19" fill="#d1a987"/>
+      <path d="M9-12c20-8 27 17 14 31 13-6 12-25-1-36-11-10-29-5-35 7" fill="#2e1b18"/>
+      <path d="M-12 4-21 8l10 4Z" fill="#d1a987"/>
+      <path d="M-5 4h5" stroke="#3a241d" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="m-19-7 8-9 7 10 8-11 8 10 8-9" fill="#fff0cf" stroke="#b8872f" stroke-width="1.6"/>
+    </g>
+    <path d="M-43 255c24 7 62 7 86 0" fill="none" stroke="#f1d88f" stroke-width="2" opacity=".7"/>
+  </g>
+</svg>

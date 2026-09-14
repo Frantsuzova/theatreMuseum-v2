@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 330" role="img" aria-label="Арлекин">
+  <defs>
+    <linearGradient id="harlequinCostume" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a23b49"/>
+      <stop offset="1" stop-color="#641723"/>
+    </linearGradient>
+    <linearGradient id="harlequinTeal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f8d88"/>
+      <stop offset="1" stop-color="#265d60"/>
+    </linearGradient>
+    <filter id="harlequinShadow" x="-40%" y="-30%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#321513" flood-opacity=".25"/>
+    </filter>
+  </defs>
+  <g filter="url(#harlequinShadow)" transform="translate(72 40)">
+    <ellipse cx="18" cy="265" rx="62" ry="13" fill="#4a2a20" opacity=".22"/>
+    <path d="M-18 170-27 259H-2l9-82Z" fill="url(#harlequinCostume)" stroke="#4e1420" stroke-width="2"/>
+    <path d="m17 171 22 87 24-7-31-82Z" fill="url(#harlequinTeal)" stroke="#204f53" stroke-width="2"/>
+    <path d="m-31 70 12 100c13 10 44 11 58 1L34 70C22 52-15 51-31 70Z" fill="url(#harlequinCostume)" stroke="#54131e" stroke-width="2"/>
+    <path d="M2 58 16 51l15 14-14 13Z" fill="#397a77" opacity=".9"/>
+    <g fill="none" stroke="#e7c778" stroke-width="2.2" opacity=".95">
+      <path d="m-25 86 22-16 23 17-22 21Z"/>
+      <path d="m-20 126 23-17 24 18-23 22Z"/>
+      <path d="m-12 158 17-12 18 13"/>
+    </g>
+    <g fill="#e7c778">
+      <circle cx="-25" cy="86" r="2.2"/><circle cx="20" cy="87" r="2.2"/>
+      <circle cx="-20" cy="126" r="2.2"/><circle cx="27" cy="127" r="2.2"/>
+    </g>
+    <path d="M-19 68C-39 75-46 91-53 111" fill="none" stroke="#711b28" stroke-width="12" stroke-linecap="round"/>
+    <path d="M33 80c23-3 37-22 43-47" fill="none" stroke="#711b28" stroke-width="12" stroke-linecap="round"/>
+    <path d="m73 35 18-52" stroke="#b98730" stroke-width="3.4" stroke-linecap="round"/>
+    <circle cx="92" cy="-21" r="7" fill="#e4c36f" stroke="#9b6921" stroke-width="2"/>
+    <path d="M83-21h18M92-30v18" stroke="#7a1826" stroke-width="1.5"/>
+    <ellipse cx="3" cy="61" rx="31" ry="11" fill="#f2dfb8" stroke="#b8872f" stroke-width="2.5"/>
+    <path d="m-24 57 8-11 8 13 10-14 10 14 10-13 9 11" fill="#fff1cf" stroke="#b8872f" stroke-width="1.5"/>
+    <ellipse cx="4" cy="35" rx="17" ry="19" fill="#3a241d"/>
+    <path d="M-12 28C-5 5 23 8 27 26c6-13 18-9 14 7" fill="none" stroke="#b8872f" stroke-width="4" stroke-linecap="round"/>
+    <path d="M23 17c9-18 22-16 21 2" fill="none" stroke="#e3c26e" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="44" cy="17" r="4" fill="#e3c26e"/>
+    <path d="m-27 259 30 1-7 10h-29Z" fill="#332019"/>
+    <path d="m39 258 28-8 2 11-28 8Z" fill="#332019"/>
+  </g>
+</svg>

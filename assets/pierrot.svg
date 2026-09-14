@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 330" role="img" aria-label="Пьеро">
+  <defs>
+    <linearGradient id="pierrotCostume" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff8e8"/><stop offset="1" stop-color="#d8c7a8"/></linearGradient>
+    <linearGradient id="pierrotWine" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9b3544"/><stop offset="1" stop-color="#5b1722"/></linearGradient>
+    <filter id="pierrotShadow" x="-40%" y="-30%" width="180%" height="180%"><feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#321513" flood-opacity=".24"/></filter>
+  </defs>
+  <g filter="url(#pierrotShadow)" transform="translate(72 40)">
+    <ellipse cx="18" cy="265" rx="62" ry="13" fill="#4a2a20" opacity=".2"/>
+    <path d="M-18 170-27 259H-2l9-82Z" fill="url(#pierrotCostume)" stroke="#8d7b61" stroke-width="2"/>
+    <path d="m17 171 22 87 24-7-31-82Z" fill="url(#pierrotWine)" stroke="#4e1420" stroke-width="2"/>
+    <path d="m-31 70 12 100c13 10 44 11 58 1L34 70C22 52-15 51-31 70Z" fill="url(#pierrotCostume)" stroke="#8d7b61" stroke-width="2"/>
+    <path d="M2 58 16 51l15 14-14 13Z" fill="#741b2a" opacity=".9"/>
+    <g fill="#741b2a" stroke="#b8872f" stroke-width="1"><circle cx="3" cy="93" r="5"/><circle cx="4" cy="123" r="5"/><circle cx="5" cy="153" r="5"/></g>
+    <path d="M-19 68C-39 75-46 91-53 111" fill="none" stroke="url(#pierrotCostume)" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="-55" cy="115" r="5.5" fill="#d1a987"/>
+    <path d="M33 80c23-3 37-22 43-47" fill="none" stroke="url(#pierrotCostume)" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="77" cy="29" r="5.5" fill="#d1a987"/>
+    <ellipse cx="3" cy="61" rx="31" ry="11" fill="#f2dfb8" stroke="#b8872f" stroke-width="2.5"/>
+    <path d="m-24 57 8-11 8 13 10-14 10 14 10-13 9 11" fill="#fff1cf" stroke="#b8872f" stroke-width="1.5"/>
+    <ellipse cx="4" cy="35" rx="17" ry="19" fill="#3a241d"/>
+    <path d="M-13 25C-7 5 19 7 25 24" fill="none" stroke="#b8872f" stroke-width="3.2" stroke-linecap="round"/>
+    <path d="M-5 15 4-8l10 23" fill="#fff8e8" stroke="#8d7b61" stroke-width="1.4"/>
+    <circle cx="4" cy="-8" r="4" fill="#741b2a"/>
+    <path d="m-27 259 30 1-7 10h-29Z" fill="#4d1320"/><path d="m39 258 28-8 2 11-28 8Z" fill="#4d1320"/>
+  </g>
+</svg>
